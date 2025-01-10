@@ -102,7 +102,9 @@ end
   For detailed instructions on all available options, refer to the [Minimal Mistakes configuration guide](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).  
 
 5. Preview Your Site Locally
-  If you want to see how your site looks before pushing changes to GitHub, you can host it locally. This avoids the need to push your repo every time you make a modification. Follow these steps: 
+
+If you want to see how your site looks before pushing changes to GitHub, you can host it locally. This avoids the need to push your repo every time you make a modification. Follow these steps: 
+
   * Install Ruby and Jekyll
       Refer to the [Jekyll Documentation](https://jekyllrb.com/docs/) for installation instructions.  
   * Install Bundler
