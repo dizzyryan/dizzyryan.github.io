@@ -1,21 +1,15 @@
-The website is built using the [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/). Below, I’ll guide you through the steps to create your own site using my modified version of the original theme.  
-
-# Building Your Personal Site: A Simplified Guide  
-
 This post is for anyone who wants to create a personal site but finds the process a bit challenging.  
 
 This site is built using [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/), a Jekyll-based theme. I’ve explored several forks of this theme, such as [Academic Pages](https://academicpages.github.io), which are quite handy. However, I noticed that some functions were removed in these forks, making them harder to customize. So, I downloaded the [original ZIP file](https://mmistakes.github.io/minimal-mistakes/docs/installation/) and customized it myself.  
 
 In this post, I’ll explain how I built my site, what changes I made, and how you can create your own. Exploring the forks I mentioned or figuring things out independently is always a rewarding experience! Let’s dive in.  
 
----
-
 ## Get Started  
 
 ### Option 1: Use My Template  
 This is the easiest option since most of the work is already done for you. Simply download, clone, or fork this repository and customize it to suit your needs!
-**[Download zip file](https://github.com/dizzyryan/site-template.github.io/archive/refs/heads/main.zip)**
 
+**[Download zip file](https://github.com/dizzyryan/site-template.github.io/archive/refs/heads/main.zip)**
 
 ### Option 2: Start from Scratch  
 
@@ -24,9 +18,7 @@ I’ll provide a brief overview here. For detailed instructions, refer to the [M
 > [!NOTE]
 > You can always follow the [original version and guidance](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/), which works perfectly fine.
 
-#### Steps:  
-
-1. Create a New GitHub Repository
+#### Create a New GitHub Repository
 
 If you plan to use GitHub Pages to host your site, name your repository `<your-username>.github.io` and clone the repository to your local computer. 
 
@@ -35,7 +27,7 @@ I personally host my website on [Vercel](https://vercel.com) because I’ve purc
 > [!CAUTION]
 > Hosting your repository publicly on GitHub might raise privacy concerns. While this typically isn’t an issue if you don’t mind, be cautious about exposing sensitive information. Alternatively, you can host your site on your personal server for enhanced security, though the process may differ from what I outline here. 
 
-2. Download the Minimal Mistakes Theme
+#### Download the Minimal Mistakes Theme
 
 > [!Note]
 > Since I made some changes to this theme, it's recommended to clone the original version if you plan to follow the steps outlined here.
@@ -48,9 +40,10 @@ Clone or download the [Minimal Mistakes theme](https://mmistakes.github.io/minim
   - `LICENSE` *(optional, for crediting the creator)*  
   - `Gemfile`
 
-3. Edit the `Gemfile`
-    
+#### Edit the `Gemfile`
+
 Update the `Gemfile` by removing its contents and replacing them with the following:  
+
 ```
 source "https://rubygems.org"
 
@@ -88,48 +81,40 @@ group :jekyll_plugins do
 end
 ```
 
-4. Update Configuration
-  * Uncomment and Update the Remote Theme
-      Locate the line with `remote_theme` in `_config.yml`, uncomment it, and update it to the following:  
-      ```
-      remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-      ```  
-  * Edit the Configuration
-      Customize the configuration file to suit your site. For example, you can:  
-      - Set your site’s name and description.  
-      - Add a link to your GitHub repository.  
+#### Update Configuration
 
-  For detailed instructions on all available options, refer to the [Minimal Mistakes configuration guide](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).  
+* Uncomment and Update the Remote Theme
+    Locate the line with `remote_theme` in `_config.yml`, uncomment it, and update it to the following:  
+    ```
+    remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+    ```  
+* Edit the Configuration 
+    Customize the configuration file to suit your site. For example, you can:  
+    - Set your site’s name and description.  
+    - Add a link to your GitHub repository.  
 
-5. Preview Your Site Locally
+For detailed instructions on all available options, refer to the [Minimal Mistakes configuration guide](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).  
+
+#### Preview Your Site Locally
 
 If you want to see how your site looks before pushing changes to GitHub, you can host it locally. This avoids the need to push your repo every time you make a modification. Follow these steps: 
 
-  * Install Ruby and Jekyll
-
-      Refer to the [Jekyll Documentation](https://jekyllrb.com/docs/) for installation instructions.  
-      
-  * Install Bundler
-
-      Run the following command in your terminal:  
-      ```
-      gem install bundler
-      ```
-
-  * Install Dependencies
-
-      Run `bundle install` in your terminal. If you skip this step, the terminal will prompt you to install the necessary dependencies when you proceed to the next step.
-
-  * Host Your Site Locally
-
-      Use the following command:  
-      ```
-      bundle exec jekyll serve
-      ```
-
-  * Preview Your Site
-
-      Open your browser and go to `http://127.0.0.1:4000` to view your site.  
+* Install Ruby and Jekyll
+    Refer to the [Jekyll Documentation](https://jekyllrb.com/docs/) for installation instructions.  
+* Install Bundler
+    Run the following command in your terminal:  
+    ```
+    gem install bundler
+    ```
+* Install Dependencies
+    Run `bundle install` in your terminal. If you skip this step, the terminal will prompt you to install the necessary dependencies when you proceed to the next step.
+* Host Your Site Locally
+    Use the following command:  
+    ```
+    bundle exec jekyll serve
+    ```
+* Preview Your Site
+    Open your browser and go to `http://127.0.0.1:4000` to view your site.  
 
 ### Final Thoughts  
 
