@@ -1,7 +1,5 @@
 The website is built using the [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/). Below, I’ll guide you through the steps to create your own site using my modified version of the original theme.  
 
----
-
 # Building Your Personal Site: A Simplified Guide  
 
 This post is for anyone who wants to create a personal site but finds the process a bit challenging.  
@@ -16,17 +14,8 @@ In this post, I’ll explain how I built my site, what changes I made, and how y
 
 ### Option 1: Use My Template  
 This is the easiest option since most of the work is already done for you. Simply download, clone, or fork this repository and customize it to suit your needs!
+**[Download zip file][https://github.com/dizzyryan/site-template.github.io/archive/refs/heads/main.zip]**
 
-<br>
-
-[<kbd> <br> Download zip file<br> </kbd>][Link]
-
-<br>
-<!---------------------------------------------------------------------------->
-[Link]: https://github.com/dizzyryan/site-template.github.io/archive/refs/heads/main.zip
-<!---------------------------------------------------------------------------->
-
----
 
 ### Option 2: Start from Scratch  
 
@@ -35,7 +24,7 @@ I’ll provide a brief overview here. For detailed instructions, refer to the [M
 > [!NOTE]
 > You can always follow the [original version and guidance](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/), which works perfectly fine.
 
-#### Prerequisite:  
+#### Steps:  
 
 1. Create a New GitHub Repository
     If you plan to use GitHub Pages to host your site, name your repository `<your-username>.github.io` and clone the repository to your local computer. 
@@ -46,6 +35,10 @@ I’ll provide a brief overview here. For detailed instructions, refer to the [M
     > Hosting your repository publicly on GitHub might raise privacy concerns. While this typically isn’t an issue if you don’t mind, be cautious about exposing sensitive information. Alternatively, you can host your site on your personal server for enhanced security, though the process may differ from what I outline here. 
 
 2. Download the Minimal Mistakes Theme
+
+    > [!Note]
+    > Since I made some changes to this theme, it's recommended to clone the original version if you plan to follow the steps outlined here.
+
     Clone or download the [Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/). Copy the following files into your repository:  
     - `_data`  
     - `_config.yml`  
@@ -124,11 +117,6 @@ I’ll provide a brief overview here. For detailed instructions, refer to the [M
         ```
     * Preview Your Site
         Open your browser and go to `http://127.0.0.1:4000` to view your site.  
-
-#### Personalization
-
-In this part, I will give you some information on how to personalize you own site.
-
 
 ### Final Thoughts  
 
