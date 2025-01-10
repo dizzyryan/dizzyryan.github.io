@@ -106,20 +106,29 @@ end
 If you want to see how your site looks before pushing changes to GitHub, you can host it locally. This avoids the need to push your repo every time you make a modification. Follow these steps: 
 
   * Install Ruby and Jekyll
+
       Refer to the [Jekyll Documentation](https://jekyllrb.com/docs/) for installation instructions.  
+      
   * Install Bundler
+
       Run the following command in your terminal:  
       ```
       gem install bundler
       ```
+
   * Install Dependencies
+
       Run `bundle install` in your terminal. If you skip this step, the terminal will prompt you to install the necessary dependencies when you proceed to the next step.
+
   * Host Your Site Locally
+
       Use the following command:  
       ```
       bundle exec jekyll serve
       ```
+
   * Preview Your Site
+
       Open your browser and go to `http://127.0.0.1:4000` to view your site.  
 
 ### Final Thoughts  
