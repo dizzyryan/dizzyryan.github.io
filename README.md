@@ -14,7 +14,7 @@ In this post, I’ll explain how I built my site, what changes I made, and how y
 
 ### Option 1: Use My Template  
 This is the easiest option since most of the work is already done for you. Simply download, clone, or fork this repository and customize it to suit your needs!
-**[Download zip file][https://github.com/dizzyryan/site-template.github.io/archive/refs/heads/main.zip]**
+**[Download zip file](https://github.com/dizzyryan/site-template.github.io/archive/refs/heads/main.zip)**
 
 
 ### Option 2: Start from Scratch  
