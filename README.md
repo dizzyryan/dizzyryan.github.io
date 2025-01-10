@@ -31,13 +31,13 @@ I’ll provide a brief overview here. For detailed instructions, refer to the [M
 
     I personally host my website on [Vercel](https://vercel.com) because I’ve purchased a custom domain. Vercel offers free hosting for hobby projects or personal sites, making it an excellent alternative to GitHub Pages. 
 
-    > [!CAUTION]
-    > Hosting your repository publicly on GitHub might raise privacy concerns. While this typically isn’t an issue if you don’t mind, be cautious about exposing sensitive information. Alternatively, you can host your site on your personal server for enhanced security, though the process may differ from what I outline here. 
+> [!CAUTION]
+> Hosting your repository publicly on GitHub might raise privacy concerns. While this typically isn’t an issue if you don’t mind, be cautious about exposing sensitive information. Alternatively, you can host your site on your personal server for enhanced security, though the process may differ from what I outline here. 
 
 2. Download the Minimal Mistakes Theme
 
-    > [!Note]
-    > Since I made some changes to this theme, it's recommended to clone the original version if you plan to follow the steps outlined here.
+> [!Note]
+> Since I made some changes to this theme, it's recommended to clone the original version if you plan to follow the steps outlined here.
 
     Clone or download the [Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/). Copy the following files into your repository:  
     - `_data`  
